@@ -61,3 +61,18 @@ We know about the file match_new_file1.txt that contains the word "fox". This fi
 ```bash
 wc -lmw match_new_file1.txt
 ```
+
+### The last problem
+
+7. Create a bash script that takes as input a log file and executes a search in it, using grep for the keyword “error”. As soon as the “error” word is detected through the log file, the script should return a message saying “Errors found in log <name_of_log>”.
+
+Note: Do not forget to include the fullpath to the file before it’s name, when called as a parameter to the script run. Also, the log file must be populated by you.
+
+Solution in scripts folder. We created an example based on the kern.log file in /var/log folder where I found a line with a segmentation fault error.
+
+```bash
+andreiaky@IBM-machine:~/Desktop/Homework1/scripts$ bash error_check.sh 
+Input log file to read (insert full path name): 
+/home/andreiaky/Desktop/Homework1/scripts/kern.log
+Errors found in log kern.log
+```
