@@ -1,0 +1,34 @@
+Jun 25 19:19:41 IBM-machine kernel: [    0.319477] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Jun 25 19:19:41 IBM-machine kernel: [    0.320192] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Jun 25 19:19:41 IBM-machine kernel: [    0.320899] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Jun 25 19:19:41 IBM-machine kernel: [    0.321373] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Jun 25 19:19:41 IBM-machine kernel: [    0.323798] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Jun 25 19:19:41 IBM-machine kernel: [    0.324825] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Jun 25 19:19:41 IBM-machine kernel: [    0.325071] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Jun 25 19:19:41 IBM-machine kernel: [    0.326914] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Jun 25 19:19:41 IBM-machine kernel: [    0.327421] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Jun 25 19:19:41 IBM-machine kernel: [    0.330031] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Jun 25 19:19:41 IBM-machine kernel: [    0.331789] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Jun 25 19:19:41 IBM-machine kernel: [    0.331828] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Jun 25 19:19:41 IBM-machine kernel: [    0.352699] pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Jun 25 19:15:31 IBM-machine kernel: [  231.469183] update-notifier[4469]: segfault at 0 ip 0000000000000000 sp 00007fffb6bacdb8 error 14 in update-notifier (deleted)[55e9c88d2000+6000]
+Jul  3 18:52:59 IBM-machine kernel: [    6.550626] loop0: detected capacity change from 0 to 8
+Jul  3 18:52:59 IBM-machine kernel: [    6.567539] vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Jul  3 18:52:59 IBM-machine kernel: [    6.568440] Console: switching to colour dummy device 80x25
+Jul  3 18:52:59 IBM-machine kernel: [    6.571053] vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 kiB
+Jul  3 18:52:59 IBM-machine kernel: [    6.571069] vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 16384 kiB
+Jul  3 18:52:59 IBM-machine kernel: [    6.571213] vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+Jul  3 18:52:59 IBM-machine kernel: [    6.571297] vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, 
+Jul  3 18:52:59 IBM-machine kernel: [    6.571301] vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+Jul  6 06:18:22 IBM-machine kernel: [    6.174681] loop5: detected capacity change from 0 to 709280
+Jul  6 06:18:22 IBM-machine kernel: [    6.175048] fbcon: svgadrmfb (fb0) is primary device
+Jul  6 06:18:22 IBM-machine kernel: [    6.209899] loop6: detected capacity change from 0 to 955472
+Jul  6 06:18:22 IBM-machine kernel: [    6.210490] Console: switching to colour frame buffer device 100x37
+Jul  6 06:18:22 IBM-machine kernel: [    6.219463] [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:02.0 on minor 0
+Jul  6 06:18:22 IBM-machine kernel: [    6.222101] loop7: detected capacity change from 0 to 187776
+Jul  6 06:18:22 IBM-machine kernel: [    6.225723] loop8: detected capacity change from 0 to 716168
+Jul  6 06:18:22 IBM-machine kernel: [    6.242855] loop9: detected capacity change from 0 to 25240
+Jul  6 06:18:22 IBM-machine kernel: [    6.248646] loop10: detected capacity change from 0 to 94064
+Jul  6 06:18:22 IBM-machine kernel: [    6.255178] loop11: detected capacity change from 0 to 109072
+Jul  6 06:18:22 IBM-machine kernel: [    6.262179] loop12: detected capacity change from 0 to 102072
+Jul  6 06:18:22 IBM-machine kernel: [    6.269682] loop13: detected capacity change from 0 to 608
