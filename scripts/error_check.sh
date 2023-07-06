@@ -10,7 +10,7 @@ LOGFILE=$(basename $USERINPUT)
 # echo
 
 # If it finds an error in the file it outputs the first echo else no errors
-if [[ `cat $USERINPUT | grep -Eioe error` = "error" ]]
+if [[ `cat $USERINPUT | grep -Eioe error | head -n 1` = "error" ]]
 then
 	echo "Errors found in log $LOGFILE"
 else
