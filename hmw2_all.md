@@ -1,6 +1,6 @@
-#IBM Linux Homework 2
+# IBM Linux Homework 2
 
-###1. Transfer Validation
+### 1. Transfer Validation
 
 - Bash script to test if the hashsum of two files match
 - This simulates a situation of a file transfer between systems
