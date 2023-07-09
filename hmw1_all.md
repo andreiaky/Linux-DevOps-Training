@@ -1,4 +1,4 @@
-#IBM Linux Homework 1
+# IBM Linux Homework 1
 
 1. Use the grep command to search for a specific keyword in a file or set of files and output the results to a new file.
 
