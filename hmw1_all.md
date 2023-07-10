@@ -70,8 +70,8 @@ Note: Do not forget to include the fullpath to the file before it’s name, when
 Solution in scripts folder. We created an example based on the kern.log file in /var/log folder where I found a line with a segmentation fault error.
 
 ```bash
-andreiaky@IBM-machine:~/Desktop/Homework1/scripts$ bash error_check.sh 
+user@pc:~/Desktop/Homework1/scripts$ bash error_check.sh 
 Input log file to read (insert full path name): 
-/home/andreiaky/Desktop/Homework1/scripts/kern.log
+/home/user/Desktop/Homework1/scripts/kern.log
 Errors found in log kern.log
 ```
